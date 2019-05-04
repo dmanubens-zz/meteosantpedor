@@ -3,6 +3,8 @@
 start="19870901"
 end="20161130"
 
+cd ../data
+
 for ((i=start; i <= end; i=$(date -d "$i+1 month" +%Y%m%d))); do
     year=$(date -d "$i" +%Y)
     month=$(date -d "$i" +%m)

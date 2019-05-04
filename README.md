@@ -22,3 +22,5 @@ chmod +x *
 
 ./convert.py
 ```
+
+Data will be downloaded and extracted in `data/` folder.
